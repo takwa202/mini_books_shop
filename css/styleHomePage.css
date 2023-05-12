@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+/********************** the nav bare  ******************************/
+nav{
+    background-color:white;
+    display: flex;
+    width: 80%;
+    height: 70px;
+    margin: 0% 10%  0% 10% ; 
+    justify-content: space-around;
+    box-shadow: 0px 5px 10px 0px rgb(211, 207, 201);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    
+}
+#logo {
+    
+  position: relative;
+  right: 180px;
+  top: -11px;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  /*z-index: ;*/
+}
+#shopicon{
+   font-size: 25px;
+   position: relative;
+   top: 20px;
+   right: -150px;
+   cursor: pointer;
+   color: black;
+}
+/* #shopicon:hover{color:red;} */
+
+
+
+
+/********************* main *************************/
+
+#title{
+    position: absolute;
+    left: 47%;
+    top: 150px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 15px;
+
+}
+/********************* section product *************************/
+#product{
+    width: 80%;
+    margin: 0% 10% ;
+    position: absolute;
+   
+    display: flex;
+    flex-wrap: wrap;
+    top: 250px;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 80px;
+
+}
+.products{
+    margin: 29px;
+    background-color: rgb(218, 230, 230);
+    width: 300px;
+    height: 380px;
+    border-radius:10px ;
+    box-shadow: 0px 5px 10px 0px rgb(211, 207, 201);
+   
+}
+.products img {
+    margin: 40px;
+    position: relative;
+    left: 20px;
+}
+
+.products h1{
+    font-family: 'Hubballi', cursive;
+    position:relative ;
+    bottom: 40px;
+    left: 30px;
+    font-size: 20px;
+   
+}
+.products p{
+    font-family: 'Hubballi', cursive;
+    font-size: 20px;
+    position:relative ;
+    bottom: 49px;
+    left: 30px;
+}
+.products div{
+    background-color: rgb(144, 142, 146);
+    height: 53px;
+    position: relative;
+    bottom: 40px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    
+}
+.products div i{
+    color: rgb(218, 230, 230);;
+    height: 53px;
+    position: relative;
+    font-size: 35px;
+    left : 80px;
+    top: 10px;
+    cursor: pointer;
+    
+}
+.products div button{
+    height: 30px;
+    font-family: 'Lobster', cursive;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    
+
+}
+.products:hover{
+    background-color: rgb(194, 204, 204);
+}
+
+
+
+
+/*********************the basket *************************/
+#basketProducts{
+    position: fixed;
+    background-color: white;
+   z-index: 1000;
+   min-height: 50px;
+    width: max-content;
+    display: flex;
+    left: 715px;
+    top: 65px;
+    flex-direction:column-reverse ;
+    box-shadow : 0px 7px 10px 0px rgb(211, 207, 201);
+    padding: 30px;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
